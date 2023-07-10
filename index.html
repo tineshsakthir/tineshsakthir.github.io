@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="App.css"> -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  
+  <title>Score Keeper!!!!</title>
+  <style>
+    
+    .winner{
+      color: green;
+    }
+    
+    .looser{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4 is-offset-4">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title ">
+                  Volley-ball score keeper
+                </p>
+                
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  <h1 class="title is-1">
+                    <p><span id="playerOne">0</span> vs <span id="playerTwo">0</span> </p> 
+                  </h1>
+                  <p class="subtitle is-6">keep the buttons below to keep scores</p>
+                  <div  class="select is-primary is-rounded">
+                    <select id="scoreSelector" >
+                      <option value="4">4</option>
+                      <option value="12">12</option>
+                      <option value="14">14</option>
+                      <option value="16">16</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <footer class="card-footer">
+                <button id="playerOneButton" class="button is-primary card-footer-item">+1 Player one</button>
+                <button id="playerTwoButton" class="button is-primary card-footer-item">+2 Player Two</button>
+                <button id="resetButton" class="button is-info card-footer-item">Reset</button>
+               </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <p><span id="playerOne">0</span> vs <span id="playerTwo">0</span> </p>  
+
+      <select id="scoreSelector">
+  
+        <option value="10">10</option>
+        <option value="12">12</option>
+        <option value="14">14</option>
+        <option value="16">16</option>
+      </select>
+      
+      <button id="playerOneButton">Player One</button>
+      <button id="playerTwoButton">Player Two</button>
+
+      <button id="resetButton" >Reset</button> -->
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
