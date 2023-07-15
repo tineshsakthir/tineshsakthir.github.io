@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>TVShowSearchApp</title>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <div class="row">
+    <div class="d-flex justify-content-center" style="margin-top: 1rem;"> <h1 >MOvie Searching With Key Word</h1></div>
+  </div>
+  <!-- <form id="requestForm" action="">
+    <input name="requestName" type="text" autocomplete="off">
+    <button type="sumbit">Get the Movie</button>
+    </form> -->
+
+    <form id="requestForm" >
+      <div class="d-flex justify-content-center" style="margin: 1rem;">
+        <div class="input-group w-50" name="formContainer" >
+          <input id="requestShow" name="requestName" type="text" class="form-control" placeholder="Enter the Name Of YOur Favorite Movie" autocomplete="off">
+          <button class="btn btn-outline-secondary" type="submit">Get the Movie</button>
+          <button id="resetBtn" class="btn btn-outline-secondary" type="button">Clear</button>
+        </div>
+      </div>
+   </form>
+  
+<div id="container" class="container" >
+  <h1 style="display: none;" name="noImage">There Is NO IMages To Fech</h1>
+    
+</div>
+
+   <script src="script.js" ></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
