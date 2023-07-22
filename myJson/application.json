@@ -1,0 +1,20 @@
+{
+  "books": [
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "published_year": 1979,
+      "genre": "Science Fiction",
+      "rating": 4.5,
+      "summary": "A comedic science fiction series following the adventures of Arthur Dent after the Earth is destroyed to make way for a hyperspace bypass."
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "published_year": 1960,
+      "genre": "Classic, Fiction",
+      "rating": 4.8,
+      "summary": "A novel set in the American South during the Great Depression, dealing with themes of racial injustice and moral growth."
+    }
+  ]
+}
