@@ -77,24 +77,25 @@ submitButton.addEventListener('click', function (e) {
     });
     console.log(total);
 
-    const cgpa = (total / totalCredits).toFixed(5);
+    const gpa = (total / totalCredits).toFixed(5);
     const result = document.querySelector('#result');
-    result.innerHTML = `<h2>Your CGPA is ${cgpa}</h2>`;
+    result.innerHTML = `<h2>Your GPA is ${gpa}</h2>`;
   }
   proceed = true;
 });
 
 
 
+// Add an event listener to the "Copy GPA" button
 const copyButton = document.querySelector('#copyButton');
 copyButton.addEventListener('click', function () {
-  const gpaValue = parseFloat(document.querySelector('#result').innerText.replace('Your CGPA is ', ''));
-  if (!isNaN(gpaValue)) {
-    const textToCopy = gpaValue.toFixed(5); // Copy the GPA value rounded to two decimal places
+  const cgpaValue = parseFloat(document.querySelector('#result').innerText.replace('Your GPA is ', ''));
+  if (!isNaN(cgpaValue)) {
+    const textToCopy = cgpaValue.toFixed(5); // Copy the GPA value rounded to two decimal places
     copyToClipboard(textToCopy);
-    alert('GPA copied to clipboard!');
+    alert('CGPA copied to clipboard!');
   } else {
-    alert('Please calculate GPA before copying.');
+    alert('Please calculate CGPA before copying.');
   }
 });
 
