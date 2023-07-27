@@ -1,5 +1,6 @@
-#calculate {
+.sameStyle {
   font-family: 'trebuchet ms';
+  font-family: 'Handjet', cursive;
   color: #14396A !important;
   font-size: 14px;
   text-shadow: 1px 1px 0px #7CACDE;
@@ -10,7 +11,8 @@
   background: #EE1F48;
   background: linear-gradient(to top, #EE1F48, #CF1717);
 }
-#calculate:hover {
+.sameStyle:hover {
+  font-family: 'Handjet', cursive;
   color: #14396A !important;
   background: #CF3893;
   background: linear-gradient(to top, #CF3893, #EE0EC9);

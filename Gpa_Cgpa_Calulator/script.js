@@ -86,18 +86,15 @@ submitButton.addEventListener('click', function (e) {
 
 
 
-// Your existing JavaScript code here
-
-// Add an event listener to the "Copy CGPA" button
 const copyButton = document.querySelector('#copyButton');
 copyButton.addEventListener('click', function () {
-  const cgpaValue = parseFloat(document.querySelector('#result').innerText.replace('Your CGPA is ', ''));
-  if (!isNaN(cgpaValue)) {
-    const textToCopy = cgpaValue.toFixed(5); // Copy the CGPA value rounded to two decimal places
+  const gpaValue = parseFloat(document.querySelector('#result').innerText.replace('Your CGPA is ', ''));
+  if (!isNaN(gpaValue)) {
+    const textToCopy = gpaValue.toFixed(5); // Copy the GPA value rounded to two decimal places
     copyToClipboard(textToCopy);
-    alert('CGPA copied to clipboard!');
+    alert('GPA copied to clipboard!');
   } else {
-    alert('Please calculate CGPA before copying.');
+    alert('Please calculate GPA before copying.');
   }
 });
 
