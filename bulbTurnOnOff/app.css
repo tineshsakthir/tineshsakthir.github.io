@@ -1,0 +1,13 @@
+img{
+  width: 40vh;
+  display: block;
+  height: 40vh;
+}
+
+body{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
