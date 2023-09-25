@@ -1,0 +1,147 @@
+.navBiggerTin {
+  font-size: xx-large;
+}
+
+.centering {
+  margin-top: 18px;
+}
+
+
+.list-group-item {
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+  /* Center-align text */
+}
+
+
+
+/* Center-align buttons and add spacing */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin: 5px;
+  /* Add spacing around buttons */
+  border-radius: 25px;
+  width: 300px;
+}
+
+.center-table {
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: none;
+  /* Remove borders from table cells */
+  padding: 8px;
+  text-align: center;
+
+}
+
+th {
+  background-color: #4a19bc;
+}
+
+
+
+
+
+#clickToRegister {
+  height: 45px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #696265; */
+  color: white;
+  border-radius: 25px;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+.header{
+  height: auto;
+}
+
+
+
+
+
+
+
+  #progress-container {
+    position: -webkit-sticky;
+  position: sticky;
+    width: 100%;
+    height: 5px; /* Adjust the height as needed */
+   /* Progress bar background color */
+    margin-top: 0px;
+    
+  }
+  
+  #progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: red; /* Progress bar color */
+    opacity: 0.9;
+  }
+
+  #header{
+    display: flex;
+    flex-wrap: wrap;
+     
+  }
+
+
+
+
+
+  #header {
+    height: 300px;
+}
+
+/* Media query for screens with a maximum width of 500px */
+@media screen and (max-width: 500px) {
+    #header {
+        height: 90px;
+    }
+  }
+
+
+
+  
+  @media (max-width: 900px) {
+   
+    .logo2 {
+      height: 50px;
+      width: 150px;
+ 
+    }
+    .logo1 {
+      height: 80px;
+      width: 80px;
+      
+    }
+ 
+
+    #progress-container {
+      height: 4px;
+    }
+  }
+
+
+
