@@ -1,0 +1,1 @@
+This Repo contains many projects. I am Keeping all of that one folder. Because,i want to host them in github pages...So i need to create  a single repo with this Name(tineshsaktir.github.io - myGithubUsername+.github.io) to make my projects to auto host. So,that is the reason for keeping all the projects in one Folder.
