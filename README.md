@@ -1,13 +1,18 @@
-This Repo contains many projects. I am Keeping all of my mini projects in this one repository. Because,i want to host them in github pages...So i need to create a single repo with this Name(tineshsaktir.github.io - myGithubUsername+.github.io) to make my projects to auto host. So,that is the reason for keeping all the projects in one Repository.
+Here’s an improved version with better flow and clarity:
 
-cgpa calulator : tineshsakthir.github.io/Gpa_Cgpa_Calulator/
+---
 
-FormValidationUsingRegex : tineshsakthir.github.io/FormValidationUsingRegex/
+This repository contains multiple mini projects, all hosted using GitHub Pages. I decided to keep all my projects in this single repository (`tineshsakthir.github.io`) to enable automatic hosting through GitHub Pages. The naming format (`myGitHubUsername.github.io`) allows for easy management and hosting of all my projects in one place.
 
-NgpianEsports : tineshsakthir.github.io/NgpianEsports/
+Here are some of the projects hosted in this repository:
 
-TVShowsSearchAApp : tineshsakthir.github.io/TVShowsSearchAApp/
+- **CGPA Calculator**: [tineshsakthir.github.io/Gpa_Cgpa_Calulator](https://tineshsakthir.github.io/Gpa_Cgpa_Calulator/)
+- **Form Validation Using Regex**: [tineshsakthir.github.io/FormValidationUsingRegex](https://tineshsakthir.github.io/FormValidationUsingRegex/)
+- **Ngpian Esports**: [tineshsakthir.github.io/NgpianEsports](https://tineshsakthir.github.io/NgpianEsports/)
+- **TV Shows Search App**: [tineshsakthir.github.io/TVShowsSearchAApp](https://tineshsakthir.github.io/TVShowsSearchAApp/)
+- **University App**: [tineshsakthir.github.io/UniversityApp](https://tineshsakthir.github.io/UniversityApp/)
+- **Zava Event 2023**: [tineshsakthir.github.io/ZavaEvent@2023](https://tineshsakthir.github.io/ZavaEvent@2023/)
 
-UniversityApp : tineshsakthir.github.io/UniversityApp/
+---
 
-ZavaEvent@2023 : tineshsakthir.github.io/ZavaEvent@2023/
+This version gives a more polished and structured feel while keeping all the key details. Let me know if you need any changes!
